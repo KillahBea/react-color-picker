@@ -1,10 +1,14 @@
 import React, { Component } from 'react'
-import HelloWorld from './components/HelloWorld'
-
+import ColorPicker from './components/ColorPicker'
+import Header from './components/Header'
 class App extends Component {
   render() {
-    return <HelloWorld />
+    return (
+      <main>
+        <Header />
+        <ColorPicker />
+      </main>
+    )
   }
 }
-
 export default App
